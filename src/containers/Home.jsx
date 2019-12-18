@@ -15,7 +15,7 @@ const Home = ( { myList, trends, originals }) => {
   //return initialState.length === 0 ? <h1>Loading...</h1> : (
    return (
    <>
-      <Search />
+      <Search isHome />
       {myList.length > 0 &&
         <Categories title="Mi Lista">
           <Carousel>
